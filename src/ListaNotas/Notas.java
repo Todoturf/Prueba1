@@ -24,7 +24,7 @@ public class Notas {
 	}
 	
 	public String getFechaCreacion()
-	{
+	{	
 		return this.fechaCreacion;
 	}
 	
@@ -48,8 +48,4 @@ public class Notas {
 		this.categoria = categoria;
 	}
 	
-	public String toString()
-	{
-		return this.getFechaCreacion() + " " + this.getTextoNota() + " " + this.getTextoNota();
-	}
 }
