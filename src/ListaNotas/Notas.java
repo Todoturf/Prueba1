@@ -43,9 +43,4 @@ public class Notas {
 		return this.categoria;
 	}
 	
-	public void setCategoria(String categoria)
-	{
-		this.categoria = categoria;
-	}
-	
 }
